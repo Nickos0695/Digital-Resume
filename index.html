@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    <title>Nicolas CARON</title>
+  </head>
+  
+  <body>
+    <header>
+      <nav class="blue">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">N. CARON</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="parcours.html">Parcours</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="skills.html">Competences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav blue" id="mobile-demo">
+        <li><a href="parcours.html" class="white-text">Parcours</a></li>
+        <li><a href="projets.html" class="white-text">Projets</a></li>
+        <li><a href="skills.html" class="white-text">Competences</a></li>
+        <li><a href="contact.html" class="white-text">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="col s12 m8">
+        <h2 class="header">Bienvenue</h2>
+        <div class="card horizontal hoverable">
+          <div class="card-image">
+            <img class="circle responsive-img" src="assets/0.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content blue white-text">
+              <p>Bonjour, je m'appelle Nicolas CARON, j'ai 31 ans et je suis passionné par le milieu informatique. 
+                <br>
+                 Je suis quelqu'un de jovial, autonome et maitrisant les codes du travail en équipe. Passionné par le football et ayant pratiqué ce sport durant des années, j'y ai appris l'esprit d'équipe et le dépassement de soit pour le collectif.
+                 <br>
+                 Je vous souhaite une bonne visite et j'espère avoir l'honneur de pouvoir vous rencontrer un jour.
+                 <br>
+                Nicolas CARON
+                </p>
+            </div>
+            <div class="card-action blue darken-4">
+              <a href="https://www.linkedin.com/in/nicolas-caron-645a4611a/">Linkedin</a>
+              <a href="https://github.com/Nickos0695">Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card blue darken-4 hoverable">
+              <div class="card-content white-text">
+                <span class="card-title">Contact</span>
+                <p>Téléphone : 06-46-64-48-76
+                  <br>
+                  Mail : nicolas1.caron@epitech.eu
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <footer class="page-footer blue darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Nicolas CARON</h5>
+            <p class="grey-text text-lighten-4">
+              Développeur Full Stack & DevOps.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Liens</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="https://github.com/Nickos0695">Github</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/nicolas-caron-645a4611a/"
+                  >Linkedin</a
+                >
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright center">
+        <div class="container">© 2022 Nicolas CARON - <a href="mailto:nicolas1.caron@epitech.eu">nicolas1.caron@epitech.eu</a></div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script>  
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+  </script>
